@@ -1,0 +1,15 @@
+# .coveragerc
+[run]
+source=carryforme
+omit =
+    *__init__*
+    tests/*
+    fixtures/*
+
+[report]
+show_missing = True
+omit =
+    */python?.?/*
+
+[html]
+directory=html_coverage_report
