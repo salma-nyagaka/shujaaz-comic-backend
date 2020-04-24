@@ -1,0 +1,2 @@
+# shujaaz-backend
+# shujaaz-comic
