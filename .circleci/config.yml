@@ -12,8 +12,20 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: ./manage.py test
-          name: Test
+          name: run tests
+          command: |
+            . venv/bin/activate
+            pytest --cov --cov-report=
+            codecov --token=CODECOV_TOKEN
+            coverage report
+            coverage xml
+      - run:
+          name: Send coverage to CodeCov
+          command: bash <(curl -s https://codecov.io/bash) -t "e5f89367-ca48-4787-9079-2239f1469c0b"
+
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
 
 workflows:
   main:
