@@ -23,8 +23,7 @@ def test_fetch_user(client, create_user, creator_details, expected_response):
     else:
         encoded_data = str(expected_response).encode()
         converted_data = encoded_data.decode('utf-8')
-        expected = converted_data.replace("'", '"')
-   
+        expected = converted_data.replace("'", '"') 
         assert expected in response.content.decode('utf-8')
 
 
@@ -44,8 +43,7 @@ def test_fetch_specific_user(client, create_user, expected_response):
     response = client.get(creator_url)
     if response.status_code == 200:
         assert response.data["message"] == expected_response
-    else:    
-        encoded_data = str(expected_response).encode()
+    else: encoded_data = str(expected_response).encode()
         converted_data = encoded_data.decode('utf-8')
         expected = converted_data.replace("'", '"')
         assert expected in response.content.decode('utf-8')

@@ -17,9 +17,8 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
 
         """
-        Class to return all the fields.
+        Class to return all the fields data.
         """
 
         model = User
         fields = '__all__'
-
