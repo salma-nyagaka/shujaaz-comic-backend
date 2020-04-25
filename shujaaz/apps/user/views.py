@@ -1,6 +1,3 @@
-from django.shortcuts import render
-
-# Create your views here.
 from rest_framework.generics import GenericAPIView
 from .models import User
 from .serializers import UserSerializer
@@ -10,8 +7,8 @@ from rest_framework import status
 
 class UserAPIView(GenericAPIView):
 
-    def get(self, request, format=None):
-        """ Method for fetching all crators"""
+    def get(self, request):
+        """ Method for fetching all creators."""
         user = User.objects.all()
         serializer = UserSerializer(user, many=True)
         return Response({
@@ -20,10 +17,9 @@ class UserAPIView(GenericAPIView):
                 "data": serializer.data})
 
 class SingleUserAPIView(GenericAPIView):
+    
      def get(self, request, user_id):
-        """
-        Method for fetching a single creator
-        """
+        """Method for fetching a single creator."""
         try:
             user = User.get_user_by_id(user_id=user_id)
             serializer = UserSerializer(user)

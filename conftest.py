@@ -1,10 +1,6 @@
 """
 configure common methods for testing
 """
-from typing import Callable
-from typing import Tuple
-from typing import Type
-
 import pytest
 
 from shujaaz.apps.user.models import User
@@ -12,9 +8,7 @@ from shujaaz.apps.user.models import User
 
 @pytest.fixture
 def create_user(db):
-    """
-    create a db user
-    """
+    """Create a db user."""
     user_details = {
         "pk": "1",
         "username": "ronaldnyagaka",

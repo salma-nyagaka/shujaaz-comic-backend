@@ -3,7 +3,7 @@ from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
-    """Class for serializing the user data"""
+    """Class for serializing the user data."""
 
     id = serializers.CharField(required=False)
     username = serializers.CharField(required=False)
