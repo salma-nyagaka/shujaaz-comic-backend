@@ -2,7 +2,7 @@ import pytest
 from django.urls import reverse
 
 
-import shujaaz.apps.user.tests.fixtures.user as \
+import shujaaz.apps.user.test.fixtures.user as \
     fixtures
 
 

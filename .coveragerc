@@ -11,6 +11,6 @@ show_missing = True
 omit =
     */python?.?/*
     */migrations/*
-    */tests/*
+    */test/*
 [html]
 directory=html_coverage_report
