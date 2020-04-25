@@ -24,4 +24,6 @@ urlpatterns = [
     path('api_documentation/', schema_view),
     path('api/',
          include('shujaaz.apps.user.urls', namespace="user")),
+    path('api/',
+        include('shujaaz.apps.comic.urls', namespace="comic")),
 ]
