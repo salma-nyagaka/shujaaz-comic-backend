@@ -14,8 +14,8 @@ jobs:
   
       - run:
           command:  |
-          virtualenv venv
-          . venv/bin/activate
+          python3 -m venv venv
+            . venv/bin/activate
           pip3 install -r requirements.txt
           name: Test
 
