@@ -7,7 +7,7 @@ from rest_framework import status
 
 class UserAPIView(GenericAPIView):
 
-    def get(self, request, format=None):
+    def get(self, request):
         """Method for fetching all creators."""
         user = User.objects.all()
         serializer = UserSerializer(user, many=True)
