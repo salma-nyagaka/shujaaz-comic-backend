@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,6 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+env = environ.Env(
+    # set casting, default value
+    DEBUG=(bool, False)
+)
+
 
 # Application definition
 
@@ -38,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework_swagger',
+    'shujaaz.apps.creator',
 ]
 
 MIDDLEWARE = [
@@ -78,10 +85,8 @@ WSGI_APPLICATION = 'shujaaz.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    # read the database environ
+    'default': env.db()
 }
 
 
