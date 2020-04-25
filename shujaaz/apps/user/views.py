@@ -14,7 +14,10 @@ class UserAPIView(GenericAPIView):
         """ Method for fetching all crators"""
         user = User.objects.all()
         serializer = UserSerializer(user, many=True)
-        return Response(serializer.data)
+        return Response({
+                "status": "success",
+                "message": "These are the Content creators",
+                "data": serializer.data})
 
 class SingleUserAPIView(GenericAPIView):
      def get(self, request, user_id):
@@ -27,7 +30,7 @@ class SingleUserAPIView(GenericAPIView):
    
             return Response({
                 "status": "success",
-                "message": "hey",
+                "message": "Content creator",
                 "data": serializer.data})
         except (KeyError, User.DoesNotExist):
             return Response({
