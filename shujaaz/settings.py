@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     #local apps
     'shujaaz.apps.user',
+    'shujaaz.apps.comic',
 
 ]
 
