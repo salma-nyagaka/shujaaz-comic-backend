@@ -13,16 +13,16 @@ class ComicAPIView(GenericAPIView):
         serializer = ComicSerializer(comic, many=True)
         return Response({
                 "status": "success",
-                "message": "These are the Comic available",
+                "message": "These are the Comics available",
                 "data": serializer.data})
 
 
 class SingleComicAPIView(GenericAPIView):
 
-     def get(self, request, user_id):
+     def get(self, request, comic_id):
         """Method for fetching a single comic."""
         try:
-            comic = User.get_user_by_id(user_id=user_id)
+            comic = Comic.get_comic_by_id(comic_id=comic_id)
             serializer = ComicSerializer(comic)
             return Response({
                 "status": "success",
