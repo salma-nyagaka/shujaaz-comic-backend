@@ -1,0 +1,16 @@
+# .coveragerc
+[run]
+source=shujaaz
+omit =
+    *__init__*
+    tests/*
+    fixtures/*
+
+[report]
+show_missing = True
+omit =
+    */python?.?/*
+    */migrations/*
+    */test/*
+[html]
+directory=html_coverage_report
