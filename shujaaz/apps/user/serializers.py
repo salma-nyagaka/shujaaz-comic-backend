@@ -3,6 +3,7 @@ from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
+
     """Class for serializing the user data."""
 
     id = serializers.CharField(required=False)
@@ -12,6 +13,8 @@ class UserSerializer(serializers.ModelSerializer):
     email = serializers.CharField(required=False)
 
     class Meta:
+
+        """Class to return all the fields"""
         model = User
         fields = '__all__'
 

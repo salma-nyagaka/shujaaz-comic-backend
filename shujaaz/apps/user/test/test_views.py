@@ -36,9 +36,8 @@ def test_fetch_user(client, create_user, creator_details, expected_response):
     ],
 )
 def test_fetch_specific_user(client, create_user, expected_response):
-    """
-    test login user
-    """
+    """Test login user."""
+    
     creator_url = reverse("user:specific_content_creator", args=[1])
     response = client.get(creator_url)
      

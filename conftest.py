@@ -1,6 +1,3 @@
-"""
-configure common methods for testing
-"""
 import pytest
 
 from shujaaz.apps.user.models import User
