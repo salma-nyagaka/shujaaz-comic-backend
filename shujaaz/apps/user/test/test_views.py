@@ -42,7 +42,6 @@ def test_fetch_specific_user(client, create_user, expected_response):
     """
     creator_url = reverse("user:specific_content_creator", args=[1])
     response = client.get(creator_url)
-     
     if response.status_code == 200:
         assert response.data["message"] == expected_response
     else:    

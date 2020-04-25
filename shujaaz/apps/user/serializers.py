@@ -17,7 +17,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
 
         """
-        Class to return all the fields
+        Class to return all the fields.
         """
 
         model = User
