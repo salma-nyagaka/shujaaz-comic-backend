@@ -1,0 +1,28 @@
+[{
+    "pk": "1",
+    "model": "user.user",
+    "fields": {
+        "username": "salmanyagaka",
+        "first_name": "Salma",
+        "last_name": "Nyagaka",
+        "email": "salmanyagak@gmail.com"
+    }
+}, {
+    "pk": "2",
+    "model": "user.user",
+    "fields": {
+        "username": "ianwanyoike",
+        "first_name": "ian",
+        "last_name": "wanyoike",
+        "email": "ianwanyoikee@gmail.com"
+    }
+}, {
+    "pk": "3",
+    "model": "user.user",
+    "fields": {
+        "username": "trevorsaudi",
+        "first_name": "trevor",
+        "last_name": "saudi",
+        "email": "saudi@gmail.com"
+    }
+}]

@@ -44,7 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework_swagger',
-    'shujaaz.apps.creator',
+
+    #local apps
+    'shujaaz.apps.user',
+
 ]
 
 MIDDLEWARE = [
@@ -83,12 +86,16 @@ WSGI_APPLICATION = 'shujaaz.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
 DATABASES = {
-    # read the database environ
-    'default': env.db()
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'shujaaz',
+        'USER': 'shujaaz',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
 }
-
 
 
 # Password validation
