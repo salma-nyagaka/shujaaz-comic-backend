@@ -11,14 +11,12 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
+  
       - run:
-        name: install dependencies
-        command: |
+          command:  |
           virtualenv venv
           . venv/bin/activate
           pip3 install -r requirements.txt
-      - run:
-          command: pytest
           name: Test
 
 workflows:
