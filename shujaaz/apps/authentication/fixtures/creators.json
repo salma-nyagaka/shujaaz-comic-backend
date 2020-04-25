@@ -1,0 +1,27 @@
+[{
+        "id": "1",
+        "model": "authentication.user",
+        "fields": {
+            "username": "froyo",
+            "email": "froyo@almond.com",
+            "first_name": "Froyo",
+            "last_name": "Almond",
+            "password": "12345",
+            "created_at": "2019-06-1 18:00:51.824958+03",
+            "updated_at": "2019-06-1 18:01:51.824958+03"
+        }
+    },
+    {
+        "id": "2",
+        "model": "authentication.user",
+        "fields": {
+            "username": "froyo",
+            "email": "froyo@almond.com",
+            "first_name": "Froyo",
+            "last_name": "Almond",
+            "password": "pbkdf2_sha256$150000$QK5Wp847GJrP$DiAhOOWRGm2nzACaMq+2K+b94RtXpk9GpftJb19loRE=",
+            "created_at": "2019-06-1 18:00:51.824958+03",
+            "updated_at": "2019-06-1 18:01:51.824958+03"
+        }
+    }
+]
