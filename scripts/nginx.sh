@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir -p /etc/nginx/sites-enabled
-mkdir -p /etc/nginx/sites-available
+# mkdir -p /etc/nginx/sites-enabled
+# mkdir -p /etc/nginx/sites-available
 
 # sudo mkdir -p /etc/nginx/log/
 
