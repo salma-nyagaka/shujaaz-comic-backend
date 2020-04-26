@@ -15,7 +15,6 @@ jobs:
         - image: circleci/postgres:9.6.5-alpine-ram
           environment:
             DJANGO_SETTINGS_MODULE: "shujaaz.settings"
-
             POSTGRES_USER: postgres
             POSTGRES_DB: shujaaz_test_db
             POSTGRES_PASSWORD:
