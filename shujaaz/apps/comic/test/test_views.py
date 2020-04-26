@@ -16,7 +16,9 @@ import shujaaz.apps.comic.test.fixtures.characters as \
     ],
 )
 def test_fetch_user(client, create_user, comic_details, expected_response):
-    """Test fetching of all comcis."""
+    """
+    Test fetching of all comics.
+    """
     comics_url = reverse("comic:comics")
     response = client.get(comics_url, comic_details)
 
@@ -36,10 +38,10 @@ def test_fetch_user(client, create_user, comic_details, expected_response):
 
     ],
 )
-def test_fetch_specific_user(client, create_user, expected_response):
+def test_fetch_specificcomic(client, create_user, expected_response):
 
     """
-    Test login user.
+    Test fetch comic.
     """
     creator_url = reverse("comic:specific_comic", args=[1])
     response = client.get(creator_url)
@@ -60,7 +62,9 @@ def test_fetch_specific_user(client, create_user, expected_response):
     ],
 )
 def test_fetch_characters(client, create_user, character_details, expected_response):
-    """Test fetching of all characters."""
+    """
+    Test fetching of all characters.
+    """
     characters_url = reverse("comic:characters", args=[2])
     response = client.get(characters_url, character_details)
 
