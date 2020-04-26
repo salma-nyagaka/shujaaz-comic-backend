@@ -25,7 +25,7 @@ hooks:
       runas: root
     - location: scripts/nginx.sh
       timeout: 6000
-      runas: ec2-user
+      runas: root
   ApplicationStart:
     - location: scripts/start_server
       timeout: 600
