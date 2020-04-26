@@ -5,7 +5,9 @@ mkdir -p /etc/nginx/sites-available
 
 mkdir -p /etc/nginx/log/
 
-cp /home/ec2-user/www/shujaaz-comic/nginx/default.conf /etc/nginx/nginx.conf
+cp /home/ec2-user/www/shujaaz-comic/nginx/default.conf /etc/nginx/conf.d/default.conf
+
+chkconfig nginx on 
 
 unlink /etc/nginx/sites-enabled/*
 
