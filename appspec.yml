@@ -5,11 +5,9 @@ files:
     destination: /var/www/shujaaz-comic
   - source: /
     destination: /home/ec2-user/shujaaz-comic
-  - source: /conf/shujaaz-comic.conf
-    destination: /etc/httpd/conf.d
 hooks:
   AfterInstall:
-    - location: scripts/install_dependencies
+    - location: scripts/install_dependencies.sh
       timeout: 600
       runas: root
   ApplicationStart:
