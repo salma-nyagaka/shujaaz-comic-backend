@@ -36,6 +36,7 @@ jobs:
             command: |
               . venv/bin/activate
               pytest
+              coverage html
 
 workflows:
   main:
