@@ -19,7 +19,7 @@ hooks:
       runas: root
     - location: scripts/install_python_dependencies.sh
       timeout: 6000
-      runas: ec2-user
+      runas: root
   ApplicationStart:
     - location: scripts/start_server
       timeout: 600
