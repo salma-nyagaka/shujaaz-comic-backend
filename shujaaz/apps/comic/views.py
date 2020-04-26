@@ -1,6 +1,6 @@
 from rest_framework.generics import GenericAPIView
-from .models import Comic
-from .serializers import ComicSerializer
+from .models import Comic, Characters
+from .serializers import ComicSerializer, CharacterSerializer
 from rest_framework.response import Response
 from rest_framework import status
 
@@ -32,3 +32,21 @@ class SingleComicAPIView(GenericAPIView):
             return Response({
                 "error": "This comic does not exist"},
                 status=status.HTTP_404_NOT_FOUND)
+
+
+class CharactersAPIView(GenericAPIView):
+
+    def get(self, request, comic_id):
+        """Method for fetching characters belonging to a comic"""
+        characters = Characters.objects.filter(comic_id=comic_id)
+        if not characters:
+            return Response({
+            "error": "This comic does not exist"},
+            status=status.HTTP_404_NOT_FOUND)
+        else:
+            serializer = CharacterSerializer(characters, many=True)
+            return Response({
+                "status": "success",
+                "message": "Successfully fetched this comic's characters",
+                "data": serializer.data})
+

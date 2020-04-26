@@ -13,3 +13,10 @@ class Comic(models.Model):
     def get_comic_by_id(comic_id):
         comic = Comic.objects.get(id=comic_id)
         return comic
+
+
+class Characters(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=256, blank=True)
+    comic = models.ForeignKey(Comic, on_delete=models.CASCADE)
+

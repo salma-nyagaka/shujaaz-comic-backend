@@ -98,6 +98,15 @@
         }
     },
     {
+        "pk": "12",
+        "model": "stories.stories",
+        "fields": {
+            "title": "froyo",
+            "paragraph": "hey ",
+            "comic_id": "8"
+        }
+    },
+    {
         "pk": "13",
         "model": "stories.stories",
         "fields": {
@@ -112,20 +121,11 @@
         "fields": {
             "title": "froyo",
             "paragraph": "hey ",
-            "comic_id": "8"
-        }
-    },
-    {
-        "pk": "15",
-        "model": "stories.stories",
-        "fields": {
-            "title": "froyo",
-            "paragraph": "hey ",
             "comic_id": "9"
         }
     },
     {
-        "pk": "16",
+        "pk": "15",
         "model": "stories.stories",
         "fields": {
             "title": "froyo",
