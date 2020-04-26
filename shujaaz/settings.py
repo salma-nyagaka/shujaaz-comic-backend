@@ -103,17 +103,10 @@ WSGI_APPLICATION = 'shujaaz.wsgi.application'
 #     }
 # }
 
-
 DATABASES = {
-    'default': {
-        'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('PSQL_DB_NAME'),
-        'USER': env('PSQL_DB_USER'),
-        'PASSWORD': env('PSQL_DB_PASSWD'),
-        'HOST': env('PSQL_HOST'),
-        'PORT': env('PSQL_PORT'),
-    }
-
+    # read the database environ
+    'default': env.db()
+}
 
 
 # Password validation
