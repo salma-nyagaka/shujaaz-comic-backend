@@ -9,7 +9,7 @@ cp /home/ec2-user/www/shujaaz-comic/nginx/default.conf /etc/nginx/nginx.conf
 
 unlink /etc/nginx/sites-enabled/*
 
-# cp /home/ec2-user/www/shujaaz-comic/nginx/staging.conf /etc/nginx/sites-available/my-project-host.conf
+cp /home/ec2-user/www/shujaaz-comic/nginx/staging.conf /etc/nginx/sites-available/my-project-host.conf
 
 # ln -s /etc/nginx/sites-available/my-project-host.conf /etc/nginx/sites-enabled/my-project-host.conf
 
