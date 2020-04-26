@@ -87,6 +87,23 @@ TEMPLATES = [
 WSGI_APPLICATION = 'shujaaz.wsgi.application'
 
 
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'shujaaz',
+#         'USER': 'shujaaz',
+#         'PASSWORD': '',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#         'TEST': {
+#             'NAME': 'shujaaz_test_db',
+#         },
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
@@ -96,7 +113,7 @@ DATABASES = {
         'HOST': env('PSQL_HOST'),
         'PORT': env('PSQL_PORT'),
     }
-}
+
 
 
 # Password validation
