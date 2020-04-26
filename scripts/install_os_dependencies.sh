@@ -4,4 +4,3 @@ yum install -y postgresql-libs postgresql-devel python-lxml python-devel gcc pat
 yum install -y gcc-c++ flex epel-release supervisor
 amazon-linux-extras install  nginx1.12
 yum install postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
-/etc/init.d/nginx stop
