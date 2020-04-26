@@ -15,5 +15,5 @@ cp /home/ec2-user/www/shujaaz-comic/nginx/staging.conf /etc/nginx/sites-availabl
 
 ln -s /etc/nginx/sites-available/my-project-host.conf /etc/nginx/sites-enabled/my-project-host.conf
 
-# /etc/init.d/nginx reload
+/etc/init.d/nginx reload
 # /etc/init.d/nginx start
