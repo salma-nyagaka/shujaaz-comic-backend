@@ -1,10 +1,9 @@
 from rest_framework.generics import GenericAPIView
-from .models import Stories
-from .serializers import StoriesSerializer
+from .models import Stories, Characters
+from .serializers import StoriesSerializer, CharacterSerializer
 from rest_framework.response import Response
 from rest_framework import status
 
-# Create your views here.
 
 class StoryAPIView(GenericAPIView):
 
@@ -20,4 +19,21 @@ class StoryAPIView(GenericAPIView):
             return Response({
                 "status": "success",
                 "message": "Successfully fetched this comic's stories",
+                "data": serializer.data})
+
+
+class CharactersAPIView(GenericAPIView):
+
+    def get(self, request, story_id):
+        """Method for fetching characters belonging to a story"""
+        character = Characters.objects.filter(story_id=story_id)
+        if not character:
+            return Response({
+            "error": "This story has no characters"},
+            status=status.HTTP_404_NOT_FOUND)
+        else:
+            serializer = CharacterSerializer(character, many=True)
+            return Response({
+                "status": "success",
+                "message": "Successfully fetched this characters in this story",
                 "data": serializer.data})
