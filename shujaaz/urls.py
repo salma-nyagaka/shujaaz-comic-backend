@@ -26,4 +26,6 @@ urlpatterns = [
          include('shujaaz.apps.user.urls', namespace="user")),
     path('api/',
         include('shujaaz.apps.comic.urls', namespace="comic")),
+    path('api/',
+        include('shujaaz.apps.stories.urls', namespace="stories")),
 ]
