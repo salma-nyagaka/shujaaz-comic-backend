@@ -36,7 +36,8 @@ jobs:
             command: |
               . venv/bin/activate
               pytest
-              codecov --token=CODECOV_TOKENcoverage report
+              codecov --token=CODECOV_TOKEN
+              coverage report
               coverage xml
       - run:
           name: Send coverage to CodeCov
