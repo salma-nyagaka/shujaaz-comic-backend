@@ -1,4 +1,4 @@
 #!/bin/bash
 yum install -y httpd mod_wsgi.x86_64
-easy_install pip3
-pip3 install -r /home/ec2-user/shujaaz-comic/requirements.txt
+easy_install pip
+pip install -r /home/ec2-user/shujaaz-comic/requirements.txt
