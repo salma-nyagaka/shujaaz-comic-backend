@@ -1,14 +1,17 @@
 version: 0.0
 os: linux
 files:
-  - source: /shujaaz-comic/wsgi.py
-    destination: /var/www/shujaaz-comic
   - source: /
-    destination: /home/ec2-user/shujaaz-comic
+    destination: /home/ec2-user/www/shujaaz-comic
+permissions:
+  - object: /home/ec2-user/www/shujaaz-comic
+    pattern: "**"
+    owner: ec2-user
+    group: ec2-user
 hooks:
-  AfterInstall:
-    - location: scripts/install_dependencies.sh
-      timeout: 600
+  BeforeInstall:
+    - location: scripts/clean_instance.sh
+      timeout: 6000
       runas: root
   ApplicationStart:
     - location: scripts/start_server
