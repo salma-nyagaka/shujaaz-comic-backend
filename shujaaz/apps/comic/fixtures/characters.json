@@ -1,0 +1,181 @@
+[{
+        "pk": "1",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "1"
+        }
+    },
+    {
+        "pk": "2",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "1"
+        }
+    },
+    {
+        "pk": "3",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "1"
+        }
+    }, {
+        "pk": "4",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "5",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "6",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "7",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "3"
+        }
+    }, {
+        "pk": "8",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "9",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "10",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "11",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "4"
+        }
+    }, {
+        "pk": "12",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "5"
+        }
+    }, {
+        "pk": "14",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "5"
+        }
+    },
+    {
+        "pk": "15",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "6"
+        }
+    }, {
+        "pk": "16",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "6"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "6"
+        }
+    }, {
+        "pk": "18",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "7"
+        }
+    }, {
+        "pk": "19",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "7"
+        }
+    }, {
+        "pk": "20",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "7"
+        }
+    }, {
+        "pk": "21",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "8"
+        }
+    }, {
+        "pk": "22",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "8"
+        }
+    }, {
+        "pk": "23",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "9"
+        }
+    }, {
+        "pk": "23",
+        "model": "comic.characters",
+        "fields": {
+            "name": "froyo",
+            "comic_id": "9"
+        }
+    }
+]
