@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/www/shujaaz-comic
+    destination: /home/ec2-user/www/shujaaz-comic
 # permissions:
 #   - object: /home/ubuntu/www/shujaaz-comic
 #     pattern: "**"
