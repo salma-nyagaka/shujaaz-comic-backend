@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/www/shujaaz-comic
+    destination: /home/ubuntu/www/shujaaz-comic
 # permissions:
 #   - object: /home/ubuntu/www/shujaaz-comic
 #     pattern: "**"
@@ -26,12 +26,12 @@ files:
   #   - location: scripts/apache.sh
   #     timeout: 6000
   #     runas: root
-  ApplicationStart:
-    - location: scripts/start_server
-      timeout: 600
-      runas: root
-  ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 600
-      runas: root
+  # ApplicationStart:
+  #   - location: scripts/start_server
+  #     timeout: 600
+  #     runas: root
+  # ApplicationStop:
+  #   - location: scripts/stop_server
+  #     timeout: 600
+  #     runas: root
       
