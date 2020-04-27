@@ -28,10 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-env = environ.Env(
-    # set casting, default value
-    DEBUG=(bool, False)
-)
+env = os.environ.get
+
 
 
 # Application definition
@@ -172,3 +170,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'STATIC/')
