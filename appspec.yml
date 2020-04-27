@@ -2,12 +2,12 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/www/shujaaz-comic
+    destination: /home/ubuntu/www/shujaaz-comic
 permissions:
-  - object: /home/ec2-user/www/shujaaz-comic
+  - object: /home/ubuntu/www/shujaaz-comic
     pattern: "**"
-    owner: ec2-user
-    group: ec2-user
+    owner:ubuntu
+    group:ubuntu
 hooks:
   BeforeInstall:
     - location: scripts/clean_instance.sh
@@ -23,7 +23,7 @@ hooks:
     - location: scripts/migrate.sh
       timeout: 6000
       runas: root
-    - location: scripts/nginx.sh
+    - location: scripts/apache.sh
       timeout: 6000
       runas: root
   ApplicationStart:

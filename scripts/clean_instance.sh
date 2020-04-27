@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-rm -rf /home/ec2-user/www/*
+#!/bin/bash
+rm -rf /home/ubuntu/www/*

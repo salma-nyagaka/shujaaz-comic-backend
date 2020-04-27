@@ -1,9 +1,9 @@
-#!/usr/bin/env bash
-chown ec2-user:ec2-user /home/ec2-user/www
-yum install python3 python3-devel python3-libs python3-tools
+#!/bin/bash
+chown ubuntu:ubuntu /home/ubuntu/www
+apt-get install python3-pip libapache2-mod-wsgi-py3
 pip3 install virtualenv
-virtualenv /home/ec2-user/www/project-venv
-chown ec2-user:ec2-user /home/ec2-user/www/project-venv
-chown ec2-user:ec2-user /home/ec2-user/www/project-venv/*
-source /home/ec2-user/www/project-venv/bin/activate
-pip3 install -r /home/ec2-user/www/shujaaz-comic/requirements.txt
+virtualenv /home/ubuntu/www/project-venv
+chown ubuntu:ubuntu /home/ubuntu/www/project-venv
+chown ubuntu:ubuntu /home/ubuntu/www/project-venv/*
+source /home/ubuntu/www/project-venv/bin/activate
+pip3 install -r /home/ubuntu/www/shujaaz-comic/requirements.txt

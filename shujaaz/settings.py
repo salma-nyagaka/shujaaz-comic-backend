@@ -50,10 +50,15 @@ INSTALLED_APPS = [
     'shujaaz.apps.comic',
     'shujaaz.apps.stories',
 
+    #installed apps
+    'corsheaders',
+
+
 
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -62,6 +67,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ORIGIN_WHITELIST = (
+    '0.0.0.0:4000',
+    'localhost:4000',
+    'localhost:3000',
+    'localhost:8000'
+)
 
 REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
 
@@ -114,6 +128,11 @@ DATABASES = {
         'PORT': env('PSQL_PORT'),
     }
 }
+
+# DATABASES = {
+#     # read the database environ
+#     'default': env.db()
+# }
 
 
 # Password validation
