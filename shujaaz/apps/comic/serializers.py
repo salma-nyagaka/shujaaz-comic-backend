@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Comic, Characters
+from .models import comic, Characters
 from shujaaz.apps.user.serializers import UserSerializer
 
 
@@ -18,7 +18,7 @@ class ComicSerializer(serializers.ModelSerializer):
         Class to return all the fields data.
         """
 
-        model = Comic
+        model = comic
         fields = ('title', 'avatar', 'creator')
 
 

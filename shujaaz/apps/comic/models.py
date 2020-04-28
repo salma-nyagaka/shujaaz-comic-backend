@@ -2,7 +2,7 @@ from django.db import models
 from shujaaz.apps.user.models import User
 
 
-class Comic(models.Model):
+class comic(models.Model):
     id = models.AutoField(primary_key=True)
 
     title = models.CharField(max_length=256, blank=True)
@@ -11,12 +11,12 @@ class Comic(models.Model):
 
     @staticmethod
     def get_comic_by_id(comic_id):
-        comic = Comic.objects.get(id=comic_id)
+        comic = comic.objects.get(id=comic_id)
         return comic
 
 
 class Characters(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=256, blank=True)
-    comic = models.ForeignKey(Comic, on_delete=models.CASCADE)
+    comic = models.ForeignKey(comic, on_delete=models.CASCADE)
 
