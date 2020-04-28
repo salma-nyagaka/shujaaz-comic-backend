@@ -123,7 +123,7 @@ DATABASES = {
         'USER': 'www-data',
         'PASSWORD': 'shujaaz',
         'HOST': 'localhost',
-        'PORT': 5458,
+        'PORT': 5432,
     }
 }
 
