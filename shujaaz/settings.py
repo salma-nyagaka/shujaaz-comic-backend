@@ -26,12 +26,10 @@ SECRET_KEY = 'mi+xv3xefdu@3bt_&lxhhys-9b#(vkhu*_iot-+5&5h2p%+in9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
-env = environ.Env(
-    # set casting, default value
-    DEBUG=(bool, False)
-)
+env = os.environ.get
+
 
 
 # Application definition
@@ -50,10 +48,15 @@ INSTALLED_APPS = [
     'shujaaz.apps.comic',
     'shujaaz.apps.stories',
 
+    #installed apps
+    'corsheaders',
+
+
 
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -62,6 +65,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ORIGIN_WHITELIST = (
+    '0.0.0.0:4000',
+    'localhost:4000',
+    'localhost:3000',
+    'localhost:8000'
+)
 
 REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
 
@@ -103,10 +115,22 @@ WSGI_APPLICATION = 'shujaaz.wsgi.application'
 #     }
 # }
 
+
 DATABASES = {
-    # read the database environ
-    'default': env.db()
+    'default': {
+        'ENGINE' : 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'shujaaz',
+        'USER': 'www-data',
+        'PASSWORD': 'shujaaz',
+        'HOST': 'localhost',
+        'PORT': 5432,
+    }
 }
+
+# DATABASES = {
+#     # read the database environ
+#     'default': env.db()
+# }
 
 
 # Password validation
@@ -146,3 +170,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'STATIC/')
