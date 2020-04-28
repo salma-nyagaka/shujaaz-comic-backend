@@ -9,8 +9,8 @@ class ComicAPIView(GenericAPIView):
 
     def get(self, request):
         """Method for fetching all comics."""
-        comic = comic.objects.all()
-        serializer = ComicSerializer(comic, many=True)
+        comics = comic.objects.all()
+        serializer = ComicSerializer(comics, many=True)
         return Response({
                 "status": "success",
                 "message": "These are the Comics available",
@@ -22,8 +22,8 @@ class SingleComicAPIView(GenericAPIView):
      def get(self, request, comic_id):
         """Method for fetching a single comic."""
         try:
-            comic = comic.get_comic_by_id(comic_id=comic_id)
-            serializer = ComicSerializer(comic)
+            comics = comic.get_comic_by_id(comic_id=comic_id)
+            serializer = ComicSerializer(comics)
             return Response({
                 "status": "success",
                 "message": "Successfully fetched the comic book",

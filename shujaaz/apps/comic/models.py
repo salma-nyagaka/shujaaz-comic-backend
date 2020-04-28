@@ -11,8 +11,8 @@ class comic(models.Model):
 
     @staticmethod
     def get_comic_by_id(comic_id):
-        comic = comic.objects.get(id=comic_id)
-        return comic
+        comics = comic.objects.get(id=comic_id)
+        return comics
 
 
 class Characters(models.Model):
