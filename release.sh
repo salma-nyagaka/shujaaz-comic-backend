@@ -8,4 +8,4 @@ python3 manage.py migrate stories
 python3 manage.py loaddata shujaaz/apps/user/fixtures/user
 python3 manage.py loaddata shujaaz/apps/comic/fixtures/comic
 python3 manage.py loaddata shujaaz/apps/comic/fixtures/characters
-# python3 manage.py loaddata shujaaz/apps/stories/fixtures/stories
+python3 manage.py loaddata shujaaz/apps/stories/fixtures/stories
