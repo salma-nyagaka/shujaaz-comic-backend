@@ -30,7 +30,7 @@ urlpatterns = [
     path('api/',
         include('shujaaz.apps.stories.urls', namespace="stories")),
     path('', TemplateView.as_view(
-        template_name='swagger-ui.html',
+        template_name='swagger.html',
         extra_context={'schema_url':'openapi-schema'}
     ), name='swagger-ui'),
 ]
