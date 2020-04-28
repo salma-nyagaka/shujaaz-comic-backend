@@ -12,9 +12,9 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-sys.path.append('/home/ubuntu/www/shujaaz-comic') 
+# sys.path.append('/home/ubuntu/www/shujaaz-comic') 
 
-sys.path.append('/home/ubuntu/www/shujaaz-comic/venv/bin/python3') 
+# sys.path.append('/home/ubuntu/www/shujaaz-comic/venv/bin/python3') 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shujaaz.settings')
 
