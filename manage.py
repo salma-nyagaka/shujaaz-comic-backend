@@ -2,6 +2,10 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+from django.contrib.sites.models import Site
+
+new_site = Site.objects.create(domain='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com', name='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com')
+
 
 
 def main():
