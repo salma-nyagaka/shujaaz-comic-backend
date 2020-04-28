@@ -2,8 +2,8 @@
 cd /home/ubuntu/www/shujaaz-comic/
 source /home/ubuntu/www/shujaaz-comic/venv/bin/activate
 service postgresql start
-# psql -d shujaaz -U www-data -W
-# psql -d shujaaz -U shujaaz -W
+psql -d shujaaz -U www-data -W
+psql -d shujaaz -U shujaaz -W
 
 
 # -u postgres createuser root
