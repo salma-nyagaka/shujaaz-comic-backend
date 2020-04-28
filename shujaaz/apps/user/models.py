@@ -1,10 +1,7 @@
 from django.db import models
-from django.contrib.sites.models import Site
-
 
 
 class User(models.Model):
-    sites = models.ManyToManyField(Site)
     id = models.AutoField(primary_key=True)
 
     username = models.CharField(max_length=256,
