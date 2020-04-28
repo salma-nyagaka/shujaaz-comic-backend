@@ -99,7 +99,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'shujaaz.wsgi.application'
 
 
-SITE_ID = 1
+SITE_ID = "1"
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases

@@ -4,11 +4,14 @@ import os
 import sys
 from django.contrib.sites.models import Site
 
-new_site = Site.objects.create(domain='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com', name='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com')
 
 
 
 def main():
+    
+    sys.path.append('/var/www/vhosts/mysite') 
+
+    new_site = Site.objects.create(domain='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com', name='ec2-52-66-81-41.ap-south-1.compute.amazonaws.com')
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shujaaz.settings')
     try:
         from django.core.management import execute_from_command_line
