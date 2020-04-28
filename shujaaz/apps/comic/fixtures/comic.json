@@ -2,8 +2,8 @@
         "pk": "1",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Wolverine",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/wolverine_puybit.jpg",
             "creator_id": "1"
         }
     },
@@ -11,8 +11,8 @@
         "pk": "2",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Spiderman",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/spiderman_zeqhes.jpg",
             "creator_id": "1"
         }
     },
@@ -20,8 +20,8 @@
         "pk": "3",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "The Joker",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/thejoker_uck8eg.jpg",
             "creator_id": "2"
         }
     },
@@ -29,8 +29,8 @@
         "pk": "4",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Justice League",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/justiceleague_wizzus.jpg",
             "creator_id": "1"
         }
     },
@@ -38,8 +38,8 @@
         "pk": "5",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "The hulk",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/hulk_gtxlnv.jpg",
             "creator_id": "2"
         }
     },
@@ -47,8 +47,8 @@
         "pk": "6",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Captain America",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/captainamerica_dfnwgd.jpg",
             "creator_id": "2"
         }
     },
@@ -56,8 +56,8 @@
         "pk": "7",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "X-Men",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091766/comics/x-men_e5fxfx.jpg",
             "creator_id": "3"
         }
     },
@@ -65,8 +65,8 @@
         "pk": "8",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Batman",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/bat-man_outlw1.jpg",
             "creator_id": "3"
         }
     },
@@ -74,8 +74,8 @@
         "pk": "9",
         "model": "comic.comic",
         "fields": {
-            "title": "froyo",
-            "avatar": "https://res.cloudinary.com/mashafrancis/image/upload/v1552641620/kari4me/nan.jpg ",
+            "title": "Iron Man",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091664/comics/iron-man_l7tm9k.jpg",
             "creator_id": "3"
         }
     }

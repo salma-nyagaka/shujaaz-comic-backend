@@ -121,11 +121,11 @@ SITE_ID = "1"
 DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('PSQL_DB_NAME'),
-        'USER': env('PSQL_DB_USER'),
-        'PASSWORD': env('PSQL_DB_PASSWD'),
-        'HOST': env('PSQL_HOST'),
-        'PORT': env('PSQL_PORT'),
+        'NAME': 'shujaaz',
+        'USER': 'www-data',
+        'PASSWORD': 'shujaaz',
+        'HOST': 'localhost',
+        'PORT': 5432,
     }
 }
 
