@@ -13,6 +13,7 @@ class UserSerializer(serializers.ModelSerializer):
     first_name = serializers.DateTimeField(required=False)
     last_name = serializers.CharField(required=False)
     email = serializers.CharField(required=False)
+    avatar = serializers.CharField(required=False)
 
     class Meta:
 

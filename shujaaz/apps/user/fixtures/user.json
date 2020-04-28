@@ -5,7 +5,8 @@
         "username": "salmanyagaka",
         "first_name": "Salma",
         "last_name": "Nyagaka",
-        "email": "salmanyagak@gmail.com"
+        "email": "salmanyagak@gmail.com",
+        "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588092055/profiles/salma_jypbvt.jpg"
     }
 }, {
     "pk": "2",
@@ -14,7 +15,8 @@
         "username": "ianwanyoike",
         "first_name": "ian",
         "last_name": "wanyoike",
-        "email": "ianwanyoikee@gmail.com"
+        "email": "ianwanyoikee@gmail.com",
+        "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091988/profiles/trevor_qgitlz.jpg"
     }
 }, {
     "pk": "3",
@@ -23,6 +25,7 @@
         "username": "trevorsaudi",
         "first_name": "trevor",
         "last_name": "saudi",
-        "email": "saudi@gmail.com"
+        "email": "saudi@gmail.com",
+        "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091989/profiles/wanyoike_ecnz3k.jpg"
     }
 }]
