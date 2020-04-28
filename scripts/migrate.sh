@@ -2,6 +2,9 @@
 cd /home/ubuntu/www/shujaaz-comic/
 source /home/ubuntu/www/shujaaz-comic/venv/bin/activate
 service postgresql start
+psql -d shujaaz -U www-data -W
+psql -d shujaaz -U shujaaz -W
+
 # -u postgres createuser www-data
 # -u postgres createdb -O shujaaz postgres
 DJANGO_SETTINGS_MODULE=shujaaz.settings SECRET_KEY="mi+xv3xefdu@3bt_&lxhhys-9b#(vkhu*_iot-+5&5h2p%+in9" PSQL_DB_NAME=shujaaz PSQL_DB_USER=shujaaz PSQL_DB_PASSWD="shujaaz" PSQL_HOST=localhost PSQL_PORT=5432 DATABASE_URL=postgres://shujaaz:'shujaaz'@localhost:5432/shujaaz ./manage.py makemigrations
