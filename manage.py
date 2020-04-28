@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
 
 
 def main():
-    
-    sys.path.append('/var/www/vhosts/mysite') 
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shujaaz.settings')
     try:
         from django.core.management import execute_from_command_line
