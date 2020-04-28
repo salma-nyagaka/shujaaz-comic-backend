@@ -23,6 +23,9 @@ hooks:
     - location: scripts/migrate.sh
       timeout: 6000
       runas: root
+    - location: scripts/release.sh
+      timeout: 6000
+      runas: root
     - location: scripts/apache.sh
       timeout: 6000
       runas: root
