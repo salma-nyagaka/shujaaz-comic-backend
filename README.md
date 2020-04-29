@@ -1,8 +1,11 @@
 ## SHUJAAZ COMIC APPLICATION
 
 [![CircleCI](https://circleci.com/gh/salma-nyagaka/shujaaz-comic.svg?style=svg&circle-token=4134ce23d56f8512d56b50033c196f5d57d8fe20)](https://circleci.com/gh/salma-nyagaka/shujaaz-comic)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9db5d6439d174747814e9bfedb56761a)](https://www.codacy.com/manual/salma-nyagaka/shujaaz-comic?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=salma-nyagaka/shujaaz-comic&amp;utm_campaign=Badge_Grade)
 
+
+#### AWS DEPLOYMENT
+
+- [Link](https://shujaaz.salmanyagaka.com/)
 
 #### TEST DOCUMENTATION
 
@@ -10,11 +13,17 @@
 
 #### API DOCUMENTATION
 
-- [Link](https://circleci.com/api/v1.1/project/github/salma-nyagaka/shujaaz-comic/72/output/106/0?file=true&allocation-id=5ea58761b40dc80282801bde-0-build%2F311DB503)
+- [Link](https://documenter.getpostman.com/view/4791352/SzmY81gT?version=latest)
 
-#### AWS DEPLOYMENT
+#### PWA LINK
 
-- Link
+- [Link](https://shujaaz-c3a4d.web.app)
+
+#### API LINK
+
+- [Link](https://identity.getpostman.com/handover/multifactor?user=4791352&handover_token=87341e49-21e5-4b20-9505-60dd2fd23b99)
+
+
 
 #### DESCRIPTION
 #### This is an API that achieves the following:-
