@@ -16,17 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework_swagger.views import get_swagger_view
+from django.views.generic import TemplateView
+
 
 schema_view = get_swagger_view (title="Shujaaz Comics Documentation")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('api_documentation/', schema_view),
     path('api/',
          include('shujaaz.apps.user.urls', namespace="user")),
     path('api/',
         include('shujaaz.apps.comic.urls', namespace="comic")),
     path('api/',
         include('shujaaz.apps.stories.urls', namespace="stories")),
+    path('', TemplateView.as_view(template_name='index.html'))
+
 
 ]
