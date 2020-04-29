@@ -2,7 +2,7 @@
 export DJANGO_SETTINGS_MODULE=shujaaz.settings 
 export SECRET_KEY="mi+xv3xefdu@3bt_&lxhhys-9b#(vkhu*_iot-+5&5h2p%+in9" 
 export PSQL_DB_NAME=shujaaz 
-export PSQL_DB_USER="www-data" 
+export PSQL_DB_USER=www-data
 export PSQL_DB_PASSWD="shujaaz" 
 export PSQL_HOST=localhost 
 export PSQL_PORT=5432 
