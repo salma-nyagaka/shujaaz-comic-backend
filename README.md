@@ -104,12 +104,12 @@
  #### ENDPOINTS
 | REQUEST | DESCRIPTION  | URL  |
 | :-----: | :-: | :-: |
-| GET | Fetch a list of all creators |  http://127.0.0.1:8000/api/users/ |
-| GET | Fetch a single creator |  http://127.0.0.1:8000/api/users/1/ |
-| GET | Fetch a list of all comics available |   http://127.0.0.1:8000/api/comics/ |
-| GET | Fetch a single comic |   http://127.0.0.1:8000/api/comics/1/ |
-| GET | Fetch a list of stories within a comic |   http://127.0.0.1:8000/api/comics/3/stories/ |
-| GET | Fetch a character/characters within a comic |  http://127.0.0.1:8000/api/comics/3/characters/ |
+| GET | Fetch a list of all creators |  https://shujaaz.salmanyagaka.com/api/users/ |
+| GET | Fetch a single creator |  https://shujaaz.salmanyagaka.com/api/users/1/ |
+| GET | Fetch a list of all comics available |  https://shujaaz.salmanyagaka.com/api/comics/ |
+| GET | Fetch a single comic |   https://shujaaz.salmanyagaka.com/api/comics/1/ |
+| GET | Fetch a list of stories within a comic |   https://shujaaz.salmanyagaka.comapi/comics/3/stories/ |
+| GET | Fetch a character/characters within a comic |  https://shujaaz.salmanyagaka.com/api/comics/3/characters/ |
 
 
 
