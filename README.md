@@ -1,8 +1,4 @@
 ## SHUJAAZ COMIC APPLICATION
-
-[![CircleCI](https://circleci.com/gh/salma-nyagaka/shujaaz-comic.svg?style=svg&circle-token=4134ce23d56f8512d56b50033c196f5d57d8fe20)](https://circleci.com/gh/salma-nyagaka/shujaaz-comic)
-
-
 #### AWS DEPLOYMENT
 
 - [Link](https://shujaaz.salmanyagaka.com/static)
@@ -19,10 +15,9 @@
 
 - [Link](https://shujaaz-c3a4d.web.app)
 
-#### API LINK
+#### ERD DIAGRAM
 
 - [Link](https://identity.getpostman.com/handover/multifactor?user=4791352&handover_token=87341e49-21e5-4b20-9505-60dd2fd23b99)
-
 
 
 #### DESCRIPTION
