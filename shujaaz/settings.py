@@ -72,8 +72,7 @@ CORS_ORIGIN_WHITELIST = (
     '0.0.0.0:4000',
     'localhost:4000',
     'localhost:3000',
-    'localhost:8000',
-    'shujaaz.salmanyagaka.com'
+    'http//:localhost:3000',
 )
 
 REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
@@ -99,8 +98,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'shujaaz.wsgi.application'
 
-
-SITE_ID = "1"
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -173,4 +170,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'STATIC/')
