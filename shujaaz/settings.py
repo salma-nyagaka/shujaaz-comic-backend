@@ -115,17 +115,28 @@ WSGI_APPLICATION = 'shujaaz.wsgi.application'
 #     }
 # }
 
-
 DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'shujaaz',
-        'USER': 'www-data',
-        'PASSWORD': 'shujaaz',
-        'HOST': 'localhost',
-        'PORT': 5432,
+        'NAME': env('PSQL_DB_NAME'),
+        'USER': env('PSQL_DB_USER'),
+        'PASSWORD': env('PSQL_DB_PASSWD'),
+        'HOST': env('PSQL_HOST'),
+        'PORT': env('PSQL_PORT'),
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'shujaaz',
+#         'USER': 'www-data',
+#         'PASSWORD': 'shujaaz',
+#         'HOST': 'localhost',
+#         'PORT': 5432,
+#     }
+# }
 
 # DATABASES = {
 #     # read the database environ
