@@ -92,7 +92,7 @@
 -   Apply migrations and load the fixtures:
 
     ```
-    source releashe.sh
+    source release.sh
     ```
 
 -   Run the application with this command:
