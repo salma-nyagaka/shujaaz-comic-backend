@@ -2,7 +2,7 @@
         "pk": "1",
         "model": "stories.stories",
         "fields": {
-            "tittle": "The Begginning",
+            "title": "The Begginning",
             "comic_id": "1"
         }
     },
@@ -10,7 +10,7 @@
         "pk": "2",
         "model": "stories.stories",
         "fields": {
-            "tittle": "Avenging Death",
+            "title": "Avenging Death",
             "comic_id": "1"
         }
     },
@@ -18,8 +18,306 @@
         "pk": "3",
         "model": "stories.stories",
         "fields": {
-            "tittle": "The rise",
+            "title": "The rise",
             "comic_id": "1"
+        }
+    },
+    {
+        "pk": "4",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "1"
+        }
+    },
+    {
+        "pk": "5",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "2"
+        }
+
+    },
+    {
+        "pk": "6",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "7",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "8",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "9",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "10",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "2"
+        }
+    },
+    {
+        "pk": "11",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "12",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "14",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "15",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "16",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "3"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "18",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "19",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "20",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "4"
+        }
+    },
+    {
+        "pk": "21",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "5"
+        }
+    },
+    {
+        "pk": "22",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "5"
+        }
+    },
+    {
+        "pk": "23",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "5"
+        }
+    },
+    {
+        "pk": "24",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "5"
+        }
+    },
+    {
+        "pk": "25",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "5"
+        }
+
+    },
+    {
+        "pk": "26",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "6"
+        }
+    },
+    {
+        "pk": "27",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "6"
+        }
+    },
+    {
+        "pk": "29",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "6"
+        }
+    },
+    {
+        "pk": "30",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "6"
+        }
+    },
+    {
+        "pk": "31",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "7"
+        }
+    },
+    {
+        "pk": "32",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "7"
+        }
+    },
+    {
+        "pk": "33",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "7"
+        }
+    },
+    {
+        "pk": "34",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "7"
+        }
+    },
+    {
+        "pk": "35",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "8"
+        }
+    },
+    {
+        "pk": "36",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "8"
+        }
+    },
+    {
+        "pk": "37",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The Begginning ",
+            "comic_id": "8"
+        }
+    },
+    {
+        "pk": "38",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Avenging Death",
+            "comic_id": "8"
+        }
+    },
+    {
+        "pk": "39",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The rise",
+            "comic_id": "9"
+        }
+    },
+    {
+        "pk": "40",
+        "model": "stories.stories",
+        "fields": {
+            "title": "Beggotten Land",
+            "comic_id": "9"
+        }
+    },
+    {
+        "pk": "41",
+        "model": "stories.stories",
+        "fields": {
+            "title": "The return of the summit",
+            "comic_id": "9"
         }
     }
 ]
