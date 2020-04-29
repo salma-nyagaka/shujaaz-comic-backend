@@ -5,7 +5,7 @@
 
 #### AWS DEPLOYMENT
 
-- [Link](https://shujaaz.salmanyagaka.com/)
+- [Link](https://shujaaz.salmanyagaka.com/static)
 
 #### TEST DOCUMENTATION
 
