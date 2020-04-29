@@ -3,7 +3,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "Wolverine",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/wolverine_puybit.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/wolverinehd_wdky9k.jpg",
+            "summary": "Wolverine was born as James Howlett in northern Alberta, Canada, (approximately near Cold Lake) during the late 1880s, purportedly to rich farm owners John and Elizabeth Howlett, though he is actually the illegitimate son of the Howletts' groundskeeper, Thomas Logan.",
             "creator_id": "1"
         }
     },
@@ -12,7 +13,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "Spiderman",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/spiderman_zeqhes.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/spidermanhd_ngndxv.jpg",
+            "summary": "In Spider-Man's first story, in Marvel Comics' Amazing Fantasy, no. 15 (1962), American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility along with the ability to cling to walls.",
             "creator_id": "1"
         }
     },
@@ -21,7 +23,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "The Joker",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/thejoker_uck8eg.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/jokerhd_ibrwh8.jpg",
+            "summary": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.",
             "creator_id": "2"
         }
     },
@@ -30,7 +33,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "Justice League",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091466/comics/justiceleague_wizzus.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/justiceleaguehd_p7vyy0.jpg",
+            "summary": "Fuelled by his restored faith in humanity, and inspired by Superman's selfless act, Bruce Wayne enlists newfound ally Diana Prince to face an even greater threat. Together, Batman and Wonder Woman work quickly to recruit a team to stand against this newly-awakened enemy. Despite the formation of an unprecedented league of heroes in Batman, Wonder Woman, Aquaman, Cyborg and the Flash, it may be too late to save the planet from an assault of catastrophic proportions.",
             "creator_id": "1"
         }
     },
@@ -39,7 +43,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "The hulk",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/hulk_gtxlnv.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/hulkhd_tod4ru.jpg",
+            "summary": "Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth).",
             "creator_id": "2"
         }
     },
@@ -48,7 +53,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "Captain America",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/captainamerica_dfnwgd.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177694/comics/americahd_yctu8n.jpg",
+            "summary": "It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is accepted into an experimental program that turns him into a supersoldier called Captain America. Joining forces with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell), Captain America leads the fight against the Nazi-backed HYDRA organization.",
             "creator_id": "2"
         }
     },
@@ -57,7 +63,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "X-Men",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091766/comics/x-men_e5fxfx.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/xmenhd_dyrxdr.jpg",
+            "summary": "They are children of the atom, homo superior, the next link in the chain of evolution. Each was born with a unique genetic mutation, which at puberty manifested itself in extraordinary powers. In a world filled with hate and prejudice, they are feared by those who cannot accept their differences. Led by Xavier the X-Men fight to protect a world that fears them. They are locked in a battle with former colleague and friend, Magneto who believes humans and mutants should never co-exist.",
             "creator_id": "3"
         }
     },
@@ -67,6 +74,7 @@
         "fields": {
             "title": "Batman",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/bat-man_outlw1.jpg",
+            "summary": "Batman originated from an incident in Bruce's childhood; after witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.",
             "creator_id": "3"
         }
     },
@@ -75,7 +83,8 @@
         "model": "comic.comic",
         "fields": {
             "title": "Iron Man",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091664/comics/iron-man_l7tm9k.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/ironmanhd_tnyelc.jpg",
+            "summary": "A wealthy American business magnate, playboy, and ingenious scientist, Anthony Edward Tony Stark suffers a severe chest injury during a kidnapping.When his captors attempt to force him to build a weapon of mass destruction he instead creates a mechanized suit of armor to save his life and escape captivity.",
             "creator_id": "3"
         }
     }

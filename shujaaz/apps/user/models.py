@@ -11,6 +11,7 @@ class User(models.Model):
     last_name = models.CharField(max_length=256, blank=True)
     email = models.CharField(max_length=256, blank=True)
     avatar = models.CharField(max_length=256, blank=True)
+    bio = models.CharField(max_length=256, blank=True)
 
     @staticmethod
     def get_user_by_id(user_id):
