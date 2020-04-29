@@ -5,8 +5,8 @@ from shujaaz.apps.user.models import User
 class Comic(models.Model):
     id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=256, blank=True)
-    avatar = models.CharField(max_length=2000, blank=True)
-    summary = models.CharField(max_length=2000, blank=True)
+    avatar = models.TextField(blank=True)
+    summary = models.TextField(blank=True)
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
 
     @staticmethod
@@ -18,6 +18,6 @@ class Comic(models.Model):
 class Characters(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=256, blank=True)    
-    avatar = models.CharField(max_length=2000, blank=True)
+    avatar = models.TextField(blank=True)
     comic = models.ForeignKey(Comic, on_delete=models.CASCADE)
 
