@@ -10,6 +10,7 @@ class UserAPIView(GenericAPIView):
     def get(self, request):
         """Method for fetching all creators."""
         user = User.objects.all()
+        serializer_class = UserSerializer
         serializer = UserSerializer(user, many=True)
         return Response({
                 "status": "success",

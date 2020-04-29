@@ -15,22 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic import TemplateView
-from rest_framework_swagger.views import get_swagger_view 
+from rest_framework_swagger.views import get_swagger_view
 
 schema_view = get_swagger_view (title="Shujaaz Comics Documentation")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api_documentation/', schema_view),
+    # path('api_documentation/', schema_view),
     path('api/',
          include('shujaaz.apps.user.urls', namespace="user")),
     path('api/',
         include('shujaaz.apps.comic.urls', namespace="comic")),
     path('api/',
         include('shujaaz.apps.stories.urls', namespace="stories")),
-    path('', TemplateView.as_view(
-        template_name='swagger.html',
-        extra_context={'schema_url':'openapi-schema'}
-    ), name='swagger-ui'),
+
 ]
