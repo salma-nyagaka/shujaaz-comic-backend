@@ -11,13 +11,13 @@ jobs:
         - image: circleci/python:3.6.1
           environment:
             APP_SETTING: testing
-            TEST_DATABASE_URL: postgresql://postgres@localhost/www-data
+            TEST_DATABASE_URL: postgresql://postgres@localhost/shujaaz_test_db
         - image: circleci/postgres:9.6.5-alpine-ram
           environment:
             DJANGO_SETTINGS_MODULE: "shujaaz.settings"
 
-            POSTGRES_USER: postgres
-            POSTGRES_DB: www-data
+            POSTGRES_USER: www-data
+            POSTGRES_DB: shujaaz_test_db
             POSTGRES_PASSWORD:
     executor: python/default
     steps:
