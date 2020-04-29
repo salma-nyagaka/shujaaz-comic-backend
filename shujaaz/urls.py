@@ -29,5 +29,4 @@ urlpatterns = [
         include('shujaaz.apps.comic.urls', namespace="comic")),
     path('api/',
         include('shujaaz.apps.stories.urls', namespace="stories")),
-    path('', home_view)
 ]
