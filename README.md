@@ -19,6 +19,9 @@
 
 - [Link](https://identity.getpostman.com/handover/multifactor?user=4791352&handover_token=87341e49-21e5-4b20-9505-60dd2fd23b99)
 
+#### PWA GITHUB ACCOUNT
+
+- [Link](https://github.com/salma-nyagaka/comic-frontend)
 
 #### DESCRIPTION
 #### This is an API that achieves the following:-
