@@ -23,7 +23,7 @@ SECRET_KEY = 'mi+xv3xefdu@3bt_&lxhhys-9b#(vkhu*_iot-+5&5h2p%+in9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 env = environ.Env(
     # set casting, default value
@@ -91,7 +91,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'shujaaz',
-        'USER': 'www-data',
+        'USER': 'shujaaz',
         'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '5432',
