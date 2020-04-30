@@ -19,7 +19,7 @@ class ComicSerializer(serializers.ModelSerializer):
         """
 
         model = Comic
-        fields = ('title', 'avatar', 'creator')
+        fields = ('title', 'avatar', 'summary', 'creator')
 
 
 
