@@ -28,7 +28,7 @@
         "pk": "4",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Captain America",
             "comic_id": "2",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/marvel1_m9v5n1.jpg"
         }
@@ -37,7 +37,7 @@
         "pk": "5",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Spiderman",
             "comic_id": "2",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/marvel3_mrem3k.jpg"
         }
@@ -46,7 +46,7 @@
         "pk": "6",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "The light",
             "comic_id": "2",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/marvel2_gxz9lz.jpg"
         }
@@ -55,7 +55,7 @@
         "pk": "7",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Joker",
             "comic_id": "3",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/joker3_u7eckg.jpg"
         }
@@ -63,7 +63,7 @@
         "pk": "8",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Batman",
             "comic_id": "3",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180200/comic1characters/batmanhd_ubfsoy.jpg"
         }
@@ -72,7 +72,7 @@
         "pk": "9",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Xmen",
             "comic_id": "3",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/justiceleaguehd_p7vyy0.jpg"
         }
@@ -81,7 +81,7 @@
         "pk": "10",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "The joker",
             "comic_id": "4",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/joker3_u7eckg.jpg"
         }
@@ -90,7 +90,7 @@
         "pk": "11",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Hulk",
             "comic_id": "4",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/hulkhd_tod4ru.jpg"
         }
@@ -98,7 +98,7 @@
         "pk": "12",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Batman",
             "comic_id": "4",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180200/comic1characters/batmanhd_ubfsoy.jpg"
         }
@@ -107,15 +107,15 @@
         "pk": "13",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Yukio",
             "comic_id": "5",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/joker3_u7eckg.jpg"
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588179438/comic1characters/yukio_resqlh.jpg"
         }
     }, {
         "pk": "14",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "X-men",
             "comic_id": "5",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/justiceleaguehd_p7vyy0.jpg"
         }
@@ -124,7 +124,7 @@
         "pk": "15",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Captain America",
             "comic_id": "6",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/marvel1_m9v5n1.jpg"
         }
@@ -132,7 +132,7 @@
         "pk": "16",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Dare devil",
             "comic_id": "6",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588179438/comic1characters/thor_tcjm1j.jpg"
         }
@@ -141,7 +141,7 @@
         "pk": "17",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Iron Man",
             "comic_id": "6",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588177519/comics/ironmanhd_tnyelc.jpg"
         }
@@ -157,7 +157,7 @@
         "pk": "19",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Iron Man",
             "comic_id": "7",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/bat-man_outlw1.jpg"
         }
@@ -165,7 +165,7 @@
         "pk": "20",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Bat Man",
             "comic_id": "7",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588179438/comic1characters/thor_tcjm1j.jpg"
         }
@@ -173,7 +173,7 @@
         "pk": "21",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Red Man",
             "comic_id": "8",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588179438/comic1characters/thor_tcjm1j.jpg"
 
@@ -182,7 +182,7 @@
         "pk": "22",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Batman",
             "comic_id": "8",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/bat-man_outlw1.jpg"
 
@@ -199,7 +199,7 @@
         "pk": "23",
         "model": "comic.characters",
         "fields": {
-            "name": "froyo",
+            "name": "Joker",
             "comic_id": "9",
             "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180199/comic1characters/joker3_u7eckg.jpg"
         }

@@ -73,7 +73,7 @@
         "model": "comic.comic",
         "fields": {
             "title": "Batman",
-            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588091465/comics/bat-man_outlw1.jpg",
+            "avatar": "https://res.cloudinary.com/nyagaka-salma/image/upload/v1588180200/comic1characters/batmanhd_ubfsoy.jpg",
             "summary": "Batman originated from an incident in Bruce's childhood; after witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.",
             "creator_id": "3"
         }
